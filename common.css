@@ -93,7 +93,3 @@ html{
 .dark {
     --cross-color: var(--dark-cross);
 }
-
-.light {
-    --cross-color: var(--light-cross);
-}
