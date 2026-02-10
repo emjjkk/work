@@ -37,7 +37,7 @@ export default function ServiceCard({ id, title, description }: any) {
 
             {/* EXPANDABLE DETAIL SECTION */}
             <div
-                className={`transition-all duration-300 ease-out overflow-hidden ${open ? "max-h-[900px] opacity-100" : "max-h-0 opacity-0"
+                className={`transition-all duration-300 ease-out overflow-hidden ${open ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
                     }`}
             >
                 <div className="py-8 sm:py-10 px-4 sm:px-8 lg:px-32 text-sm text-foreground border-foreground/50 bg-foreground/2 border-b">
@@ -141,4 +141,5 @@ export default function ServiceCard({ id, title, description }: any) {
             </div>
         </div>
     );
+
 }
